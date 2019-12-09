@@ -93,7 +93,7 @@ public class MainActivity extends AppCompatActivity {
         Log.i(TAG, "RSA公钥验证签名-> " + verifySign + "，1：验证成功");
 
         Log.i(TAG, "sha1OfApk-> " + jni.sha1OfApk(this));
-        Log.i(TAG, "验证apk签名-> " + jni.verifySha1OfApk(this));
+//        Log.i(TAG, "验证apk签名-> " + jni.verifySha1OfApk(this));
     }
 
     private void initEvent() {

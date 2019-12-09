@@ -6,7 +6,6 @@ import android.content.Context;
 public class JniUtils {
 
     static {
-        System.loadLibrary("crypto");
         System.loadLibrary("cipher");
     }
 

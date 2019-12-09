@@ -12,12 +12,13 @@ android {
 
         externalNativeBuild {
             cmake {
+//                cppFlags "-std=c++11"
                 cppFlags ""
             }
         }
 
         ndk {
-            abiFilters 'x86', 'armeabi', 'armeabi-v7a', 'mips'
+            abiFilters 'x86', 'armeabi', 'armeabi-v7a'
         }
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
